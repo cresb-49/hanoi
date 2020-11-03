@@ -1,6 +1,8 @@
 package com.mycompany.torreshanoi.objets;
 
+import javax.swing.JFrame;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
 
 public class torre {
 

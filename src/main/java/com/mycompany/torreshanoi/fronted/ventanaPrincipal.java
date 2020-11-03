@@ -384,7 +384,7 @@ public class ventanaPrincipal extends javax.swing.JFrame {
         torreC.setListData(init);
         torreA.setListData(tr.torreAsignada(cantidad));
         this.movimientosjTextField.setText(String.valueOf(movimientos));
-        this.movMax=tr.calculoMovimientos(Integer.valueOf(cantidad));
+        this.movMax = tr.calculoMovimientos(Integer.valueOf(cantidad));
         this.maximajTextField.setText(String.valueOf(movMax));
         this.arregloFinal = tr.obtener(torreA);
         activarMovimientos(true);
